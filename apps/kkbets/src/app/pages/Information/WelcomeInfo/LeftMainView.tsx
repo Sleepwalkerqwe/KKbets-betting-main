@@ -7,27 +7,26 @@ import Badge from '../../../components/Badge/Badge';
 function LeftMainView(): JSX.Element {
   return (
     <StyledLeftMainView>
-      <h1 className="title">Time for Euro 2020!</h1>
+      <h1 className="title">Time for Cybersport!</h1>
       <img src={euroLogo} alt="logo euro" />
       <p className="description">
-        The time has come for the long-awaited euro 2020. Don't waste your time, and bet. Beat the rest of the players
-        and become a football specialist!
+        Welcome to BetNost
       </p>
 
       <div className="badges">
-        <h3>Play and win unique badges!</h3>
+        <h3>Make bets and win unique badges!</h3>
         <div className="badges-box">
           <Badge
             src={EuroBadge}
             name="Euro badge"
-            description="For participation in Euro 2020"
+            description="For participation in Euro 2024"
             style={{ margin: '0 7px' }}
             width={70}
           />
           <Badge
             src={EuroBadgeBest}
             name="Euro best badge"
-            description="For the best and most active players during Euro 2020"
+            description="For the best and most active players during Euro 2024"
             style={{ margin: '0 7px' }}
             width={70}
           />
